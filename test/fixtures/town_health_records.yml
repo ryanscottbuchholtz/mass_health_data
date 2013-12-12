@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  town: MyString
+  total_population_2005: 1
+  population_19_and_under_2005: 1
+  population_65_and_over_2005: 1
+  per_capita_income_2000: 1
+  persons_below_200pct_poverty_2000: 1
+  percent_below_200pct_poverty_2000: 9.99
+  pct_adequacy_prenatal_care_2000: 9.99
+  pct_csection_delivery_20052008: 9.99
+  infant_death_count_20052008: 1
+  infant_mortality_per_1000_live_births: 9.99
+  pct_low_birthweight_20052008: 9.99
+  pct_multiple_births_20052008: 9.99
+  pct_public_financed_prenatal_care_20052008: 9.99
+  pct_teen_births_20052008: 9.99
+
+two:
+  town: MyString
+  total_population_2005: 1
+  population_19_and_under_2005: 1
+  population_65_and_over_2005: 1
+  per_capita_income_2000: 1
+  persons_below_200pct_poverty_2000: 1
+  percent_below_200pct_poverty_2000: 9.99
+  pct_adequacy_prenatal_care_2000: 9.99
+  pct_csection_delivery_20052008: 9.99
+  infant_death_count_20052008: 1
+  infant_mortality_per_1000_live_births: 9.99
+  pct_low_birthweight_20052008: 9.99
+  pct_multiple_births_20052008: 9.99
+  pct_public_financed_prenatal_care_20052008: 9.99
+  pct_teen_births_20052008: 9.99
