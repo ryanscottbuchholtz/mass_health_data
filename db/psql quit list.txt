@@ -1,0 +1,44 @@
+Using PostgreSQL Effectively
+
+Frequently Used Commands
+
+\d - from command prompt will display the tables that are available
+
+\d <table_name> - will display column names for a specific table
+
+SELECT * from <table_name> - returns all the data for the table indicated
+
+\q - exit from psql
+
+SELECT - takes a column name argument.  More than one can be passed, separated by commas.  Use * to include all columns.
+
+FROM - takes a table name as argument.
+
+WHERE - allows for conditional assignment based on a specific column.  Can be chained together using AND or OR.
+
+  possible WHERE conditional assignmente include =, >, <, 
+
+  LIKE - used to match a portion of a string using '%string%'
+  ILIKE - same as like, but case sensitive
+  IN - for checking against multiple values
+  BETWEEN - for checking range of values
+
+ORDER BY - takes a column argument and displays results in order by that column.  Default is ascending.
+  
+  DESC can be specified to sort the results largest value to smallest value.
+
+LIMIT - return an exact number of matches
+
+
+Notes:
+
+  * Always use single quotes
+  * = is used for equality, vs. == in ruby
+  * END EVERY COMMAND WITH A ;
+
+
+Example:
+
+SELECT title, year FROM movies WHERE year > 1970 ORDER BY rating DESC LIMIT 10;
+
+
